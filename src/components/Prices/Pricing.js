@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from "react";
 import PriceSection from "./PriceSection";
 import "./Pricing.css";
 import { FaGripfire } from "react-icons/fa";
 import { BsFillXDiamondFill } from "react-icons/bs";
 import { RiVipDiamondFill } from "react-icons/ri";
+
 const Pricing = ({ NavLight }) => {
   return (
     <div
