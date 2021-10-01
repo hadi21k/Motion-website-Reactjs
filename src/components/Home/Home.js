@@ -1,13 +1,13 @@
 import React from "react";
 import Section from "./Section";
-import Image1 from "/Users/Diab/Desktop/Hadi/Code/Projects/website-1/src/images/svg-1.svg";
-import Image2 from "/Users/Diab/Desktop/Hadi/Code/Projects/website-1/src/images/svg-2.svg";
-import Image3 from "/Users/Diab/Desktop/Hadi/Code/Projects/website-1/src/images/svg-3.svg";
-import Image4 from "/Users/Diab/Desktop/Hadi/Code/Projects/website-1/src/images/svg-4.svg";
-import Image5 from "/Users/Diab/Desktop/Hadi/Code/Projects/website-1/src/images/svg-5.svg";
-import Image6 from "/Users/Diab/Desktop/Hadi/Code/Projects/website-1/src/images/svg-6.svg";
-import Image7 from "/Users/Diab/Desktop/Hadi/Code/Projects/website-1/src/images/svg-8.svg";
-import Image8 from "/Users/Diab/Desktop/Hadi/Code/Projects/website-1/src/images/svg-7.svg";
+import Image1 from "../images/svg-1.svg";
+import Image2 from "../images/svg-2.svg";
+import Image3 from "../images/svg-3.svg";
+import Image4 from "../images/svg-4.svg";
+import Image5 from "../images/svg-5.svg";
+import Image6 from "../images/svg-6.svg";
+import Image7 from "../images/svg-8.svg";
+import Image8 from "../images/svg-7.svg";
 const Home = ({ NavLight }) => {
   return (
     <div>
