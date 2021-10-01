@@ -54,17 +54,19 @@ const NavBar = ({ NavLight, checkSignState, btnClick }) => {
                     NavLight={NavLight}
                     MenuBurger={false}
                     NavBarBtn={true}
-                    btnText="SIGN IN"
+                    btnText="SIGN OUT"
+                    btnClick={btnClick}
                   />
                 </Link>
               ) : (
-                <Button
-                  NavLight={NavLight}
-                  MenuBurger={false}
-                  NavBarBtn={true}
-                  btnText="SIGN OUT"
-                  btnClick={btnClick}
-                />
+                <Link to="/signup">
+                  <Button
+                    NavLight={NavLight}
+                    MenuBurger={false}
+                    NavBarBtn={true}
+                    btnText="SIGN IN"
+                  />
+                </Link>
               )}
             </div>
           </li>
