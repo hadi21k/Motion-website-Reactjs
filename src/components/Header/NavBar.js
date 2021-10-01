@@ -49,7 +49,6 @@ const NavBar = ({ NavLight, checkSignState, btnClick }) => {
           <li className={`text-lg ${NavLight ? "text-black" : "text-white"}`}>
             <div>
               {checkSignState ? (
-                <Link to="/signup">
                   <Button
                     NavLight={NavLight}
                     MenuBurger={false}
@@ -57,7 +56,6 @@ const NavBar = ({ NavLight, checkSignState, btnClick }) => {
                     btnText="SIGN OUT"
                     btnClick={btnClick}
                   />
-                </Link>
               ) : (
                 <Link to="/signup">
                   <Button
@@ -114,7 +112,6 @@ const NavBar = ({ NavLight, checkSignState, btnClick }) => {
           <li className={`text-lg ${NavLight ? "text-black" : "text-white"}`}>
             <div>
               {checkSignState ? (
-                <Link to="/signup">
                   <Button
                     NavLight={NavLight}
                     MenuBurger={false}
@@ -122,7 +119,6 @@ const NavBar = ({ NavLight, checkSignState, btnClick }) => {
                     btnText="SIGN OUT"
                     btnClick={btnClick}
                   />
-                </Link>
               ) : (
                 <Link to="/signup">
                   <Button
