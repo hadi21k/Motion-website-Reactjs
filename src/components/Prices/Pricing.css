@@ -1,0 +1,20 @@
+.price-section{
+    height: 500px ;
+}
+
+.circleSpan{
+    animation: circleMove 2s infinite linear ;
+    transition: transform 700ms ease-in-out;
+}
+
+@keyframes circleMove {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
