@@ -110,26 +110,26 @@ const NavBar = ({ NavLight, checkSignState, btnClick }) => {
             </Link>
           </li>
           <li className={`text-lg ${NavLight ? "text-black" : "text-white"}`}>
-              <div>
-                {checkSignState ? (
-                  <Link to="/signup">
-                    <Button
-                      NavLight={NavLight}
-                      MenuBurger={false}
-                      NavBarBtn={true}
-                      btnText="SIGN IN"
-                    />
-                  </Link>
-                ) : (
+            <div>
+              {checkSignState ? (
+                <Link to="/signup">
                   <Button
                     NavLight={NavLight}
                     MenuBurger={false}
                     NavBarBtn={true}
-                    btnText="SIGN OUT"
-                    btnClick={btnClick}
+                    btnText="SIGN IN"
                   />
-                )}
-              </div>
+                </Link>
+              ) : (
+                <Button
+                  NavLight={NavLight}
+                  MenuBurger={false}
+                  NavBarBtn={true}
+                  btnText="SIGN OUT"
+                  btnClick={btnClick}
+                />
+              )}
+            </div>
           </li>
           <div
             onClick={closeMenu}

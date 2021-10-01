@@ -15,7 +15,9 @@ const Footer = ({ NavLight }) => {
   };
   return (
     <div
-      className={` w-full ${NavLight ? "bg-white " : " bg-gray-900"} px-4 py-8 overflow-hidden`}
+      className={` w-full ${
+        NavLight ? "bg-white " : " bg-gray-900"
+      } px-4 py-8 overflow-hidden`}
     >
       <div className="container mx-auto">
         <div className="mb-4 text-center title">
@@ -49,14 +51,22 @@ const Footer = ({ NavLight }) => {
           />
           <Button footerBtn={true} btnText="Submit" type="submit" />
         </form>
-        <ul className={`grid grid-cols-1 mt-5 md:grid-cols-2 gap-y-10 ${NavLight ? "text-gray-600" : "text-white"}`}>
+        <ul
+          className={`grid grid-cols-1 mt-5 md:grid-cols-2 gap-y-10 ${
+            NavLight ? "text-gray-600" : "text-white"
+          }`}
+        >
           <div className="grid grid-cols-2 gap-4 section-1 place-items-center">
             <div>
               <li className="px-4 py-1 text-xl font-bold md:py-2">About Us</li>
-              <li className="px-4 py-1 text-sm font-bold md:py-2">How it works</li>
+              <li className="px-4 py-1 text-sm font-bold md:py-2">
+                How it works
+              </li>
               <li className="px-4 py-1 text-sm font-bold md:py-2">Careers</li>
               <li className="px-4 py-1 text-sm font-bold md:py-2">Investors</li>
-              <li className="px-4 py-1 text-sm font-bold md:py-2">Terms of Service</li>
+              <li className="px-4 py-1 text-sm font-bold md:py-2">
+                Terms of Service
+              </li>
             </div>
             <div>
               <li className="px-4 py-1 text-xl font-bold md:py-2">
@@ -64,27 +74,41 @@ const Footer = ({ NavLight }) => {
               </li>
               <li className="px-4 py-1 text-sm font-bold md:py-2">Contact</li>
               <li className="px-4 py-1 text-sm font-bold md:py-2">Support</li>
-              <li className="px-4 py-1 text-sm font-bold md:py-2">Destination</li>
-              <li className="px-4 py-1 text-sm font-bold md:py-2">Sponsorships</li>
+              <li className="px-4 py-1 text-sm font-bold md:py-2">
+                Destination
+              </li>
+              <li className="px-4 py-1 text-sm font-bold md:py-2">
+                Sponsorships
+              </li>
             </div>
           </div>
           <div className="grid grid-cols-2 gap-4 section-2 place-items-center">
             <div>
               <li className="px-4 py-1 text-xl font-bold md:py-2">Videos</li>
-              <li className="px-4 py-1 text-sm font-bold md:py-2">Submit Videos</li>
-              <li className="px-4 py-1 text-sm font-bold md:py-2">Ambassadors</li>
+              <li className="px-4 py-1 text-sm font-bold md:py-2">
+                Submit Videos
+              </li>
+              <li className="px-4 py-1 text-sm font-bold md:py-2">
+                Ambassadors
+              </li>
               <li className="px-4 py-1 text-sm font-bold md:py-2">Agency</li>
-              <li className="px-4 py-1 text-sm font-bold md:py-2">Influencers</li>
+              <li className="px-4 py-1 text-sm font-bold md:py-2">
+                Influencers
+              </li>
             </div>
             <div>
               <li className="px-4 py-1 text-xl font-bold md:py-2">
                 Social Media
               </li>
               <a href="https://www.instagram.com/">
-                <li className="px-4 py-1 text-sm font-bold md:py-2">Instagram</li>
+                <li className="px-4 py-1 text-sm font-bold md:py-2">
+                  Instagram
+                </li>
               </a>
               <a href="https://www.facebook.com/">
-                <li className="px-4 py-1 text-sm font-bold md:py-2">Facebook</li>
+                <li className="px-4 py-1 text-sm font-bold md:py-2">
+                  Facebook
+                </li>
               </a>
               <a href="https://www.youtube.com/">
                 <li className="px-4 py-1 text-sm font-bold md:py-2">Youtube</li>
@@ -102,10 +126,18 @@ const Footer = ({ NavLight }) => {
             </h3>
             <h3>Motion</h3>
           </div>
-          <div className={`font-bold copyright ${NavLight ? "text-gray-900" : "text-white"}`}>
+          <div
+            className={`font-bold copyright ${
+              NavLight ? "text-gray-900" : "text-white"
+            }`}
+          >
             Motion &copy; {new Date().getFullYear()}
           </div>
-          <ul className={`flex items-center py-3 space-x-3 text-2xl text-white md:text-3xl social-icons ${NavLight ? "text-gray-900" : "text-white"}`}>
+          <ul
+            className={`flex items-center py-3 space-x-3 text-2xl text-white md:text-3xl social-icons ${
+              NavLight ? "text-gray-900" : "text-white"
+            }`}
+          >
             <li>
               <a href="https://www.facebook.com/">
                 <FaFacebook />

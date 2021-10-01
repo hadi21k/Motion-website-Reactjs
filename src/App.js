@@ -8,21 +8,20 @@ import SignUp from "./components/Pages/SignUp";
 import Pricing from "./components/Prices/Pricing";
 import ToggleMode from "./components/ToggleMode";
 const App = () => {
-  const history = useHistory()
+  const history = useHistory();
   const [toggleMode, setToggleMode] = useState(false);
-  const [checkSignState, setCheckSignState] = useState(false)
+  const [checkSignState, setCheckSignState] = useState(false);
   const toggle = () => {
     setToggleMode(!toggleMode);
   };
   const onSubmit = (e) => {
-    e.preventDefault()
-    history.push("/")
-    setCheckSignState(curr => !curr)
-  }
+    e.preventDefault();
+    history.push("/");
+    setCheckSignState((curr) => !curr);
+  };
   const btnClick = () => {
-    setCheckSignState(curr => !curr)
-    console.log("object")
-  }
+    setCheckSignState((curr) => !curr);
+  };
   return (
     <div className="overflow-x-hidden">
       <Switch>

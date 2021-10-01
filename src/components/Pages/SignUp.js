@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { useHistory } from "react-router";
 import Button from "../Button";
 import "./SignUp.css";
+
 const SignUp = ({ onSubmit }) => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
