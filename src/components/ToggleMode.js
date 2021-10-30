@@ -5,10 +5,10 @@ const ToggleMode = ({ toggle, toggleMode }) => {
     <div>
       <div
         onClick={toggle}
-        className={`fixed transition-all duration-700 z-50 w-16 h-16 text-4xl rounded-full font-bold bottom-10 right-8 `}
+        className={`fixed transition-all duration-700 z-50 w-16 h-16 text-4xl rounded-full font-bold animate-bounce bottom-10 right-8 `}
       >
         <span
-          className={`absolute w-full h-full transition duration-500 border-2 rounded-full circle-toggle ${
+          className={`absolute w-full h-full transition duration-500 border-2 rounded-full ${
             toggleMode ? "border-black" : "border-white"
           }`}
         ></span>
