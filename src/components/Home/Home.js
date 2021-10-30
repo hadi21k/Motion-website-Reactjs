@@ -18,7 +18,6 @@ const Home = ({ NavLight }) => {
         text2="with zero fees"
         description="Get access to our exclusive diamond card that allows you to send unlimited transactions without getting charged any fees"
         btnText="Get Started"
-        imgStart={false}
         imgUrl={NavLight ? Image2 : Image1}
         pathWay="/signup"
       />
@@ -30,7 +29,6 @@ const Home = ({ NavLight }) => {
         description="We have coved no matter where you are located. Over 140 locations worldwide to ensure you have access anytime "
         btnText="Learn More"
         imgUrl={NavLight ? Image4 : Image5}
-        imgStart={true}
         pathWay="/services"
       />
       <Section
@@ -40,7 +38,6 @@ const Home = ({ NavLight }) => {
         text2="onboarding process"
         description="Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go"
         imgUrl={NavLight ? Image6 : Image7}
-        imgStart={false}
         btnText="Start Now"
         pathWay="/products"
       />
@@ -50,7 +47,6 @@ const Home = ({ NavLight }) => {
         text1="Every transaction is stored"
         text2="on our secure cloud database"
         description="Never ever have to worry again about saved reciepts. We store your data, so you can access it anytime"
-        imgStart={true}
         imgUrl={NavLight ? Image3 : Image8}
         btnText="Sign Up Now "
         pathWay="/signup"

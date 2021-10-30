@@ -9,7 +9,6 @@ const Section = ({
   text2,
   description,
   btnText,
-  imgStart,
   imgUrl,
   pathWay,
 }) => {
@@ -48,8 +47,8 @@ const Section = ({
             <Button HomePage={true} btnText={btnText} />
           </Link>
         </div>
-        <div className="flex items-center justify-center w-full mt-8 lg:p-5 image-section">
-          <img className="w-full max-w-sm md:max-w-lg" src={imgUrl} alt="" />
+        <div className="flex items-center justify-center w-full mt-8 border lg:p-5 image-section">
+          <img className="w-full max-w-sm md:max-w-lg animate" src={imgUrl} alt="" />
         </div>
       </div>
     </main>
