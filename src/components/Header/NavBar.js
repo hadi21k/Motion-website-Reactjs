@@ -3,7 +3,6 @@ import { FaTimes } from "react-icons/fa";
 import { FiMenu } from "react-icons/fi";
 import { BiWalk } from "react-icons/bi";
 import { Link } from "react-router-dom";
-
 import Button from "../Button";
 import { useState } from "react";
 
@@ -78,8 +77,8 @@ const NavBar = ({ NavLight, checkSignState, btnClick }) => {
           <FiMenu />
         </div>
         <div
-          className={`absolute inset-0 transition-all z-10 duration-700 ease-linear flex flex-col items-center justify-center w-full h-full space-y-16 burgerMenu 
-          ${toggleMenu ? "inset-0" : "hide"}
+          className={`fixed top-0 bottom-0  transition-all z-10 duration-700 ease-in-out flex flex-col items-center justify-center w-full h-screen space-y-16 burgerMenu 
+          ${toggleMenu ? "left-0" : "hide"}
           ${NavLight ? "bg-white " : "bg-gray-900 text-white"}`}
         >
           <li
